@@ -1,0 +1,24 @@
+.profile{
+   width: 100%;
+   display: flex;
+}
+.name{
+   width: 75%;
+   line-height: 5;
+   position: relative;
+ }
+
+ .name span{
+   color: #8f8f8f;
+   position: absolute;
+   bottom: 0;
+ }
+
+ .avatar{
+   width: 25%;
+   text-align: center;
+ }
+ .avatar img{
+   width: 100px;
+   border-radius: 50%;
+ }

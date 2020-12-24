@@ -1,0 +1,126 @@
+.MainLogin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.MainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.ParentContainer{
+    width: 100%; 
+}
+
+.CenterContainer{ 
+    width: 80%;
+    margin: auto;
+    padding: 85px 0;
+}
+
+
+.HomeContainer{ 
+    margin: auto;
+    width: 90%;
+    padding: 60px 0;
+}
+
+
+.Container{ 
+    margin: auto;
+    width: 80%;
+     padding: 90px 0;
+}
+
+form{ 
+     width: 100%; 
+}
+
+.MainLogo{
+    background: url("../images/svg/main-logo.svg") no-repeat;
+    background-size: contain;
+    margin: auto;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.details{
+    max-height: 350px;
+    overflow: auto;
+    font-size: 12px;
+    font-family: 'RobotoMedium';
+}
+
+
+
+.HomeContainer ul{ 
+    padding: 0;
+
+    list-style: none;
+  }
+
+  .HomeContainer a{ 
+     color: rgb(83, 83, 83);
+  }
+
+  
+.HomeContainer ul li{ 
+    padding: 20px 10px;
+    background: url("../images/svg/right-arrow-angle.svg") no-repeat;
+    background-size: 15px;
+    background-position: center right;
+    border-bottom: 1px solid rgb(209, 209, 209);
+
+}
+
+
+.HomeContainer ul li.head{ 
+    margin-top: 20px ;
+    color: rgb(224, 177, 22);
+    font-family: "RobotoMeduim";
+    background: none;
+    border-bottom: none;
+    font-size: 17px;
+
+
+
+}
+.tags span{
+    background:rgb(210, 238, 252);
+    font-size: 10px;
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+}
+.confirmed{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.confirmed span{
+    width: calc(50% - 40px);
+    padding: 20px 10px 20px 30px;
+    background:url("../images/svg/check.svg") no-repeat;
+    background-position: center left;
+}
+.AddressContainer{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.avatar img{
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+.avatar  { 
+    text-align: center;
+    margin: 30px;
+   width: unset !important;
+
+  }

@@ -1,0 +1,192 @@
+a{
+    text-decoration: none !important;
+}
+h1{
+    font-size: 25px;
+}
+h1.bold{
+    font-size: 25px;
+} 
+h1.light{
+
+    font-weight: 100;
+}
+.textCenter{
+    text-align: center;
+}
+.textContainer{
+    display: flex;
+}
+.labelContainer{
+     color: rgb(158, 158, 158);
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    border:none;
+    background: none;
+    margin: 10px auto;
+}
+
+.btn.block{
+    background: rgb(40, 40, 40);
+    color:#fff;
+}
+
+.btn.light{
+    border:1px solid rgb(40, 40, 40);
+    color: rgb(24, 24, 24);
+}
+
+.btn.asset{
+     color: rgb(0, 147, 206) !important;
+}
+
+.space{
+   width: 100%;
+}
+ 
+.text{
+    width: 100%;
+    padding: 20px ;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    border:none;
+    background: none;
+    margin: 15px auto;
+}
+
+.textarea{
+    width: 100%;
+    padding: 20px ;
+    min-height: 100px ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    display: block;
+    border:none;
+    background: none;
+    margin: 15px auto;
+}
+
+.text.block, .textarea.block{
+    background: rgb(236, 236, 236);
+    color:rgb(51, 51, 51);
+}
+
+.text.light{
+    border:1px solid rgb(40, 40, 40);
+    color: rgb(24, 24, 24);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; 
+}
+
+.steps{
+
+    font-size: 12px;
+    font-family: 'RobotoMedium';
+    color: rgb(97, 97, 97);
+}
+.Select{
+    border-bottom: 1px solid rgb(175, 175, 175);
+    margin: 15px 0;
+    background:url("../../assets/images/svg/down-arrow.svg") no-repeat;
+    cursor: pointer;
+    background-size: 10px;
+    background-position: right;
+}
+.upload{
+    width: 100%;
+    height: 200px;
+    background: rgb(245, 245, 245);
+    border: 1px dashed;
+    display: inline-flex;
+
+}
+.upload input[type="file"] {
+    position:absolute;
+    top: -1000px;
+}
+
+.upload span {
+     margin: auto;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+     background:rgb(128, 128, 128);
+    color: #fff;
+}
+
+.label{
+    margin: 20px 0;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.label .title{
+    margin: 10px 0;
+    font-family: "RobotoMedium";
+    color: rgb(163, 163, 163);
+}
+
+.label .description{
+    margin: 10px 0; 
+    color: rgb(92, 92, 92);
+
+}
+
+
+.label .description .edit{
+     color: rgb(228, 183, 37);
+     position: absolute;
+     right: 10px;
+     font-size: 15px;
+
+}
+.labelhr{
+    display: flex
+}
+.labelhr .title{
+    margin: 10px 0;
+    width: 50%; 
+    color: rgb(163, 163, 163);
+}
+
+.labelhr .description{
+    margin: 10px 0; 
+    width: 50%;
+    color: rgb(92, 92, 92);
+
+}
+
+.labelhrb{
+    display: flex;
+    margin: 15px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+
+}
+.labelhrb .title{
+    margin: 10px 0;
+    width: 40%; 
+    color: rgb(163, 163, 163);
+}
+
+.labelhrb .description{
+    margin: 10px 0; 
+    width: 60%;
+    text-align: right;
+    color: rgb(92, 92, 92);
+
+}

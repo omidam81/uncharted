@@ -1,0 +1,39 @@
+.footer{
+    height: 60px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom:0;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.footer.shadow{
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+.footer .nav-item{
+    width: 50%;
+    flex-wrap: wrap;
+ }
+
+ .footer .nav-item.home{
+    background:url("../../assets/images/svg/home.svg") no-repeat;
+    background-position: center;
+ }
+
+ .footer .nav-item.profile{
+    background:url("../../assets/images/svg/profile.svg") no-repeat;
+    background-position: center;
+ }
+
+
+ .footer .nav-item.home.active{
+    background:url("../../assets/images/svg/home-active.svg") no-repeat;
+    background-position: center;
+ }
+
+ .footer .nav-item.profile.active{
+    background:url("../../assets/images/svg/Profile-active.svg") no-repeat;
+    background-position: center;
+ }
+ 
